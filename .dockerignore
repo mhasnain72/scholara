@@ -1,0 +1,30 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/server.env
+**/server.env.txt
+**/agent.env
+**/agent.env.txt
+
+# Dependencies
+node_modules/
+**/node_modules/
+.venv/
+**/.venv/
+
+# Build artifacts
+**/dist/
+**/__pycache__/
+
+# Local databases and logs
+**/*.db
+**/*.log
+
+# Git and editor files
+.git/
+.vscode/
+.idea/
